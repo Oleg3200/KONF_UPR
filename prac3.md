@@ -13,10 +13,10 @@ local studentTemplate(name, age, group) = {
 };
 
 local students = [
-  studentTemplate("Троецкий Т.Т.", 19, "ИКБО-4-20"),
-  studentTemplate("Павлов П.П.", 18, "ИКБО-5-20"),
-  studentTemplate("Сокол С.С.", 18, "ИКБО-5-20"),
-  studentTemplate("Тур К.А.", 19, "ИКБО-65-23"),
+  studentTemplate("Полянский М.Д.", 18, "ИКБО-6-20"),
+  studentTemplate("Мамедов И.Н.", 18, "ИКБО-7-20"),
+  studentTemplate("Синицын О.И.", 19, "ИКБО-4-20"),
+  studentTemplate("Пасечкин И.А.", 19, "ИКБО-10-20"),
 ];
 
 {
@@ -55,33 +55,32 @@ local students = [
   ],
   "students": [
     {
-      "age": 19,
-      "group": "ИКБО-4-20",
-      "name": "Троецкий Т.Т."
+      "age": 18,
+      "group": "ИКБО-6-20",
+      "name": "Полянский М.Д."
     },
     {
       "age": 18,
-      "group": "ИКБО-5-20",
-      "name": "Павлов П.П."
-    },
-    {
-      "age": 18,
-      "group": "ИКБО-5-20",
-      "name": "Сокол С.С."
+      "group": "ИКБО-7-20",
+      "name": "Мамедов И.Н."
     },
     {
       "age": 19,
-      "group": "ИКБО-65-23",
-      "name": "Тур К.А."
+      "group": "ИКБО-4-20",
+      "name": "Синицын О.И."
+    },
+    {
+      "age": 19,
+      "group": "ИКБО-10-23",
+      "name": "Пасечкин И.А."
     }
   ],
   "subject": "Конфигурационное управление"
 }
 ```
-<div width="200" height="200">
+![image](https://github.com/user-attachments/assets/c6c5686c-96e9-41dc-bfc8-97f1157dacb9)
+![image](https://github.com/user-attachments/assets/9db288a8-59fd-42fc-ae5f-c1c6913930fd)
 
-![image](https://github.com/user-attachments/assets/de5abeb0-44df-4d0d-9e86-409b87ded931)
-![image](https://github.com/user-attachments/assets/3b2bd6df-a5ad-4da4-bb0e-81d9dac6358f)
 
 
 # Задание 2
@@ -119,10 +118,10 @@ let groups : Group =
       ]
 
 let students : List Student =
-    [ { age = 19, group = "ИКБО-4-20", name = "Троецкий Т.Т." }
-    , { age = 18, group = "ИКБО-5-20", name = "Павлов П.П." }
-    , { age = 18, group = "ИКБО-5-20", name = "Сокол С.С." }
-    , { age = 19, group = "ИКБО-65-23", name = "Тур К.А." }
+    [ { age = 18, group = "ИКБО-6-20", name = "Полянский М.Д." }
+    , { age = 18, group = "ИКБО-7-20", name = "Мамедов И.Н." }
+    , { age = 19, group = "ИКБО-4-20", name = "Синицын О.И." }
+    , { age = 19, group = "ИКБО-10-20", name = "Пасечкин И.А." }
     ]
 
 in
@@ -159,23 +158,23 @@ groups:
   - "ИКБО-23-20"
   - "ИКБО-24-20"
 students:
+  - age: 18
+    group: "ИКБО-6-20"
+    name: "Полянский М.Д."
+  - age: 18
+    group: "ИКБО-7-20"
+    name: "Мамедов И.Н."
   - age: 19
     group: "ИКБО-4-20"
-    name: "Троецкий Т.Т."
-  - age: 18
-    group: "ИКБО-5-20"
-    name: "Павлов П.П."
-  - age: 18
-    group: "ИКБО-5-20"
-    name: "Сокол С.С."
+    name: "Синицын О.И."
   - age: 19
-    group: "ИКБО-65-23"
-    name: "Тур К.А."
+    group: "ИКБО-10-20"
+    name: "Пасечкин И.А."
 subject: "Конфигурационное управление"
 ```
-
-![image](https://github.com/user-attachments/assets/d67c11df-7178-4502-a358-d4fefc3fb996)
-![image](https://github.com/user-attachments/assets/cad04454-570c-419b-978a-569425a8d732)
+![image](https://github.com/user-attachments/assets/31f34ce9-8102-4ba0-8e8a-5c93dd1fa073)
+![image](https://github.com/user-attachments/assets/5d85e38b-3d6a-42ee-845c-e16b72a58cf0)
+![image](https://github.com/user-attachments/assets/4bb31e36-8ab9-4fe8-b679-a5845afbea0e)
 
 
 # Задание 3 
@@ -193,7 +192,7 @@ E = 0 0 0
 for i in range(10):
     print(generate_phrase(parse_bnf(BNF), 'S'))
 ```
-![image](https://github.com/user-attachments/assets/5a1c503a-85df-4d45-9a23-4cb49ad02486)
+![image](https://github.com/user-attachments/assets/a4a3d29b-bdd4-459b-8c6f-7d50f917d9e1)
 
 
 # Задание 4
@@ -210,7 +209,7 @@ for i in range(10):
     print(generate_phrase(parse_bnf(BNF), 'S'))
 
 ```
-![image](https://github.com/user-attachments/assets/ff91f5d4-0bd7-489d-a86e-9e4c49e1201e)
+![image](https://github.com/user-attachments/assets/c652465c-404f-48c9-8fc1-07a7bf869d23)
 
 
 # Задание 5
@@ -226,6 +225,7 @@ F = x | y
 for i in range(10):
     print(generate_phrase(parse_bnf(BNF), 'S'))
 ```
-![image](https://github.com/user-attachments/assets/ab58a678-89fa-4e5b-9584-4f835b589e24)
+![image](https://github.com/user-attachments/assets/3dc93b61-4a32-4526-8b3e-1cc574171c6b)
+
 
 
